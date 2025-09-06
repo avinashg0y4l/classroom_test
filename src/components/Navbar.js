@@ -55,10 +55,10 @@ const Navbar = () => {
 
           {/* Desktop Menu */}
           <nav className="hidden ml-10 mr-auto space-x-10 lg:ml-20 lg:space-x-12 md:flex md:items-center md:justify-start">
-            <Link href="/#About" className="text-base font-normal text-gray-400 hover:text-white">About</Link>
-            <Link href="/#Projects" className="text-base font-normal text-gray-400 hover:text-white">Projects</Link>
-            <Link href="/#Services" className="text-base font-normal text-gray-400 hover:text-white">My Services</Link>
-            <Link href="/#Contact" className="text-base font-normal text-gray-400 hover:text-white">Contact us</Link>
+            <a href="/#About" className="text-base font-normal text-gray-400 hover:text-white">About</a>
+            <a href="/#Projects" className="text-base font-normal text-gray-400 hover:text-white">Projects</a>
+            <a href="/#Services" className="text-base font-normal text-gray-400 hover:text-white">My Services</a>
+            <a href="/#Contact" className="text-base font-normal text-gray-400 hover:text-white">Contact us</a>
           </nav>
 
           {/* Button */}
